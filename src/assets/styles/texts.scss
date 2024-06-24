@@ -1,0 +1,13 @@
+@import '@/assets/styles/_variables';
+
+.logo_text {
+  font-size: 32px;
+  color: $title-color;
+  font-weight: 800;
+}
+
+.logo_subtext {
+  font-size: 16px;
+  color: $subtitle-color;
+  font-weight: 700;
+}

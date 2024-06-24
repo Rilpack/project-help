@@ -1,0 +1,31 @@
+@import '@/assets/styles/_variables';
+@import '@/assets/styles/containers';
+@import '@/assets/styles/texts';
+
+.logo {
+  width: 48px;
+  height: 58px;
+}
+
+.header_logo_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.header_logo_blocK_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header_block_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
