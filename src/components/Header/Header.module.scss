@@ -7,12 +7,23 @@
   height: 58px;
 }
 
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+}
+
 .header_logo_block {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 8px;
+
+  user-select: none;
+  cursor: pointer;
 }
 
 .header_logo_blocK_text {
