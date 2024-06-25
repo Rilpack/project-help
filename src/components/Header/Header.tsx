@@ -1,3 +1,4 @@
+import { Button } from '../Button/Button'
 import styles from './Header.module.scss'
 import logo from '@/assets/images/svg/logo.svg'
 
@@ -12,7 +13,8 @@ export const Header = () => {
         </div>
       </div>
       <div className={styles.header_block_btns}>
-
+        <Button typeStyle='light' text='Регистрация' />
+        <Button typeStyle='dark' text='Войти' />
       </div>
     </div>
   )
